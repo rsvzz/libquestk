@@ -20,4 +20,5 @@ void queue_remove(Queue** list){
     Queue *aux = *list;
     *list = aux->next;
     free(aux);
+    aux = NULL;
 }

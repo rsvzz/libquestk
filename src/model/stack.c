@@ -25,4 +25,5 @@ void stack_delete_top(Stack **base)
     Stack *aux = *base;
     *base = aux->next;
     free(aux);
+    aux = NULL;
 }
