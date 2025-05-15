@@ -8,6 +8,7 @@ source_files = [
 install_headers(['../../inc/stack.h', '../../inc/queue.h'], subdir: 'questk')
 shared_library('questk', 
 source_files, include_directories: [inc_src], 
+version:'0.0.1',
 install: true
 )
 
